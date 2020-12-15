@@ -51,6 +51,7 @@ public class CacheConfiguration {
             createCache(cm, com.iulian.monolit.domain.User.class.getName());
             createCache(cm, com.iulian.monolit.domain.Authority.class.getName());
             createCache(cm, com.iulian.monolit.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.iulian.monolit.domain.Group.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
